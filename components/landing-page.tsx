@@ -39,12 +39,13 @@ export default function LandingPage() {
             Get Started
           </Link>
         </nav>
+        <Link href="https://t.me/ArbitrageAISonicBot">
         <Button
           variant="outline"
           className="hidden hover:bg-[#ed5409] text-black hover:text-white border-none md:inline-flex"
         >
-          Login
-        </Button>
+          Launch on Telegram
+        </Button></Link>
       </header>
 
       <main className="flex-grow">

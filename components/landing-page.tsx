@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+import Dex from "./dex";
 
 export default function LandingPage() {
   return (
@@ -76,6 +77,10 @@ export default function LandingPage() {
               Start Trading <ArrowRight className="ml-2 h-6 w-6" />
             </Button></Link>
           </div>
+        </section>
+
+        <section id="about" className="py-20 bg-[#313131]">
+          <Dex />
         </section>
 
         <section id="features" className="bg-[#212121] py-20">

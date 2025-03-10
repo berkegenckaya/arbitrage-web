@@ -39,7 +39,7 @@ export default function ChatScreen() {
         "http://localhost:3001/message",
         {
           message: inputMessage,
-          threadId: "thread_jtQ71yxUEHB7irt4MyH9FrrF"
+          threadId: "thread_g8rmlqEYD3wRH3CDVaFr7152"
         },
         {
           headers: {

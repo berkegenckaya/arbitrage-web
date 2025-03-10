@@ -21,7 +21,7 @@ export default function LandingPage() {
       <header className="container mx-auto px-4 py-6 flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <Zap className="w-8 h-8 text-[#ed5409]" />
-          <span className="text-xl font-bold">ArbitrageAI</span>
+          <span className="text-xl font-bold">ArbitrAgent</span>
         </div>
         <nav className="hidden md:flex space-x-4">
           <Link
@@ -166,7 +166,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
             <Zap className="w-6 h-6 text-[#ed5409]" />
-            <span className="text-lg font-semibold">ArbitrageAI</span>
+            <span className="text-lg font-semibold">ArbitrAgent</span>
           </div>
           <nav className="flex space-x-4">
             <Link href="#" className="hover:text-[#ffcb67] transition-colors">

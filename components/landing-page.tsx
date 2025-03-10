@@ -148,9 +148,10 @@ export default function LandingPage() {
               Join now and let our AI-powered arbitrage agent work for you 24/7
               on the Sonic Chain.
             </p>
+            <Link href="/agent">
             <Button size="lg" variant="secondary" className="text-lg px-8 py-6">
               Get Started Now
-            </Button>
+            </Button></Link>
           </div>
         </section>
       </main>

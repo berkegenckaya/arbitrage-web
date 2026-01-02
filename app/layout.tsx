@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Script
-        src="https://voice-widget-saas.vercel.app/embed.js?key=pk_live_c8154fd10217420fa537b86c1e10538d"
+        src="https://voice-widget-saas.vercel.app/embed.js?key=pk_live_7e31fbc327334e45911c13e9421d26e9"
         strategy="afterInteractive"
       />
       <body className={`${urbanist.className} antialiased`}>{children}</body>
